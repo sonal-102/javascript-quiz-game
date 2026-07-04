@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-600 min-h-screen flex items-center justify-center">
+    <div class="container bg-gray-800 p-4 rounded-lg shadow-lg text-center width-full max-w-md ">
+        <h1 class="text-white text-3xl font-bold p-4 ">QUIZ</h1>
+        <button id="start-btn" class="text-white px-4 py-2 rounded btn-1">Start Quiz</button>
+        <div id="quiz-container" class="hidden mt-4">
+            <div id="question" class="text-white text-xl mb-4"></div>
+            <ul id="options" class="flex flex-col">
+            </ul>
+            <button id="nextbtn" class="text-gray-800 p-2 m-4 px-4 rounded btn-1">Next</button>
+             <button id="restartbtn" class=" text-white p-2 m-4 px-4 rounded btn-1 hidden">Restart Quiz</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
